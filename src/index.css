@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom scrollbars mimicking YouTube's sleek layout */
+.scrollbar-zinc::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-zinc::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+.scrollbar-zinc::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+  border-radius: 9999px;
+}
+.scrollbar-zinc::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+.scrollbar-zinc-light::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-zinc-light::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.scrollbar-zinc-light::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 9999px;
+}
+.scrollbar-zinc-light::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+
+/* Custom hides for slider */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Vertical video scale for portrait shorts */
+iframe.scale-120 {
+  transform: scale(1.2) translateY(-4%);
+}
+

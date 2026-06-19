@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Clone",
+  "description": "A high-fidelity modern YouTube replica with full video playing, category filtering, searching, custom playlists, interactive likes/subscriptions, and comments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
